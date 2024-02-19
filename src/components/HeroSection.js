@@ -17,13 +17,6 @@ function HeroSection() {
         >
           CHECK OUT PHOTOS
         </Button>
-        {/* <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          WATCH TRAILER <i className="far fa-play-circle" />
-        </Button> */}
       </div>
     </div>
   );
