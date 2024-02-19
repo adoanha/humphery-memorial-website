@@ -31,47 +31,46 @@ function Footer() {
           <div className="footer-link-items">
             <h2>About Us</h2>
             <Link to="/about">What this website is about</Link>
-            <Link to="/contact">Get in touch</Link>
-            <Link to="/send-love">Upload photos of Humphrey</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/donate">Donate</Link>
+            <Link to="/terms">Terms and Conditions</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/contact">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/support">Support</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <h2>Media</h2>
+            <Link to="/send-love">Submit Photos</Link>
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="https://www.facebook.com/nastasi.mignott" target="_blank">
+              Facebook
+            </Link>
+            <Link to="https://www.instagram.com/nas.t.asi" target="_blank">
+              Instagram
+            </Link>
+            <Link to="https://www.tiktok.com/@vodqua_aunt" target="_blank">
+              TikTok
+            </Link>
           </div>
         </div>
       </div>
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
-            <Link className="social-logo">
-              Hump <i class="fa-solid fa-carrot"></i>
+            <Link className="social-logo" to="/">
+              Humphrey <i class="fa-solid fa-carrot"></i>
             </Link>
           </div>
           <small className="website-rights">Hump © 2024</small>
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
-              to="/"
+              to="https://www.facebook.com/nastasi.mignott"
               target="_blank"
               aria-label="Facebook"
             >
@@ -79,35 +78,19 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link instagram"
-              to="/"
+              to="https://www.instagram.com/nas.t.asi"
               target="_blank"
               aria-label="Instagram"
             >
               <i className="fab fa-instagram"></i>
             </Link>
             <Link
-              class="social-icon-link youtube"
-              to="/"
+              class="social-icon-link tiktok"
+              to="https://www.tiktok.com/@vodqua_aunt"
               target="_blank"
-              aria-label="Youtube"
+              aria-label="TikTok"
             >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="Twitter"
-            >
-              <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
+              <i class="fab fa-tiktok" />
             </Link>
           </div>
         </div>
