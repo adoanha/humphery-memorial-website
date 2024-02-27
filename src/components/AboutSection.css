@@ -38,6 +38,10 @@
   z-index: -1;
 }
 
+.content-wrapper {
+  padding-left: 20px;
+}
+
 #about-header {
   align-self: flex-start;
   font-size: 60px;
